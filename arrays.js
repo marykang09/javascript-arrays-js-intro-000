@@ -20,7 +20,7 @@ function addElementToEndOfArray (array, element){
 
 function destructivelyAddElementToEndOfArray (array, element){
   var array = [1]
-  array = [...array, "foo"]
+  array.push("foo")
   return array
 }
 
