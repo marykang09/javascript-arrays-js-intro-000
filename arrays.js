@@ -23,3 +23,8 @@ function destructivelyAddElementToEndOfArray (array, element){
   array = [...array, "foo"]
   return array
 }
+
+function accessElementInArray(array, index){
+  var array = [1]
+  return array[index]
+}
