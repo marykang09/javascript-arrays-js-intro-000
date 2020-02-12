@@ -43,7 +43,7 @@ function removeElementFromBeginningOfArray(array){
 
 function destructivelyRemoveElementFromEndOfArray(array){
   var array = [1,2,3]
-  array = array.pop(0)
+  array.pop(0)
   return array
 }
 
