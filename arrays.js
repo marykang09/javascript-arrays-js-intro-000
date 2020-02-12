@@ -31,7 +31,7 @@ function accessElementInArray(array, index){
 
 function destructivelyRemoveElementFromBeginningOfArray (array){
   var array = [1,2,3];
-  array = array.slice(1)
+  array = array.slice(2)
   return array
 }
 
